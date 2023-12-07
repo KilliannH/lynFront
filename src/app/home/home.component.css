@@ -13,3 +13,29 @@
     border-width: 1px 0;
     box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
 }
+
+.thumbnail > img {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border-radius: 4%;
+}
+
+.track-item {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.infos-container {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.player {
+    width: 40px;
+}

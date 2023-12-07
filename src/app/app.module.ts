@@ -12,6 +12,7 @@ import { TracksComponent } from './tracks/tracks.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { IconsModule } from './icons/icons.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HomeComponent } from './home/home.component';
   imports: [
     AppRoutingModule,
     FormsModule,
+    IconsModule,
     ReactiveFormsModule,
     HttpClientModule,
     BrowserModule,

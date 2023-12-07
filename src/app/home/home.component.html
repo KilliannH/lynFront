@@ -12,3 +12,17 @@
     </div>
 </div>
 <div class="b-divider"></div>
+<div class="container">
+    <div *ngFor="let song of songs" style="margin-top: 6%;">
+        <div class="track-item">
+            <div class="thumbnail"><img src="assets/{{song.thumbnail}}" width="100" height="100" alt="{{song.title}}"></div>
+            <div class="infos-container">
+                <div class="title">{{song.title}}</div>
+                <div class="spacer"></div>
+                <div class="player">
+                    <bi name="play-circle" style="color: green;"></bi>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
